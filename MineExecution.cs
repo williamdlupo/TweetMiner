@@ -306,7 +306,7 @@ namespace TweetMiner
                 catch (Exception e)
                 {
                     log.LogError(e.Message.ToString());
-                    continue
+                    continue;
                 }
             }
         }
